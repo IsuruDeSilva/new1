@@ -1,4 +1,177 @@
 {
+  "asset": {
+        "version": "2.0",
+        "copyright": "(c) 2021 Wayfair, CC BY 4.0.",
+        "generator": "Created in 3ds Max, exported with babylon.js glTF exporter, and hand-edited in VSCode with glTF Tools"
+    },
+    "extensionsUsed": [
+        "KHR_texture_transform",
+        "KHR_materials_sheen",
+        "KHR_materials_specular",
+        "KHR_materials_variants",
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "type": "directional",
+                    "intensity": 3
+                }
+            ]
+        },
+        "KHR_materials_variants": {
+            "variants": [
+                {
+                    "name": "Champagne"
+                },
+                {
+                    "name": "Navy"
+                },
+                {
+                    "name": "Gray"
+                },
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Pale Pink"
+                }
+            ]
+        }
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "GlamVelvetSofa_legs"
+        },
+        {
+            "mesh": 1,
+            "name": "GlamVelvetSofa_fabric"
+        },
+        {
+            "mesh": 2,
+            "name": "GlamVelvetSofa_feet"
+        },
+        {
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                -0.13959079166529637,
+                -0.6590063691119785,
+                -0.12632793024247307,
+                0.7281938412213848
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Key Light",
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "GlamVelvetSofa_legs"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "extensions": {
+                        "KHR_materials_variants": {
+                            "mappings": [
+                                {
+                                    "material": 2,
+                                    "variants": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "material": 3,
+                                    "variants": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "material": 4,
+                                    "variants": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "material": 5,
+                                    "variants": [
+                                        3
+                                    ]
+                                },
+                                {
+                                    "material": 6,
+                                    "variants": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indices": 4,
+                    "material": 3
+                }
+            ],
+            "name": "GlamVelvetSofa_fabric"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8,
+                    "material": 1
+                }
+            ],
+            "name": "GlamVelvetSofa_feet"
+        }
+    ],
   "accessors": [
     {
       "bufferView": 0,
